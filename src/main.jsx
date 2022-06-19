@@ -7,6 +7,7 @@ import HalamanEvent from './Halaman/Event/HalamanEvent'
 import HalamanGalleryFoto from './Halaman/Gallery Foto/HalamanGalleryFoto'
 import HalamanKlienKamu from './Halaman/Klien Kami/HalamanKlienKami'
 import HalamanKontakKami from './Halaman/Kontak Kami/HalamanKontakKami'
+import HalamanProdukKami from './Halaman/Produk Kami/HalamanProdukKami'
 import HalamanProfile from './Halaman/Profile/HalamanProfile'
 import HalamanSignIn from './Halaman/Sign In/HalamanSignIn'
 import HalamanSignUp from './Halaman/Sign Up/HalamanSignUp'
@@ -22,6 +23,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path='/about-us' element={<HalamanAboutUs />} />
         <Route path='/artikel' element={<HalamanArtikel />} />
         <Route path='/event' element={<HalamanEvent />} />
+        <Route path='/produk-kami' element={<HalamanProdukKami />} />
         <Route path='/gallery-foto' element={<HalamanGalleryFoto />} />
         <Route path='/klien-kami' element={<HalamanKlienKamu />} />
         <Route path='/kontak-kami' element={<HalamanKontakKami />} />

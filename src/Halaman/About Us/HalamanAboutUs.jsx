@@ -1,3 +1,9 @@
-export default function HalamanAboutUs() {
+import TemplateUtama from "../Komponen/TemplateUtama";
 
+export default function HalamanAboutUs() {
+  return (
+    <TemplateUtama>
+
+    </TemplateUtama>
+  );
 }

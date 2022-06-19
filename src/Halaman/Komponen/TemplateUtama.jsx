@@ -18,7 +18,8 @@ export default function TemplateUtama(props) {
         </div>
       </div>
       <div id="navigasi-1" className="w-full h-12 flex flex-row" >
-        <button id="home" type='button' className='w-28 h-full flex items-center justify-center border-t-2 border-b-2 border-black hover:bg-gray-200'>
+        <button id="home" type='button' className='w-28 h-full flex items-center justify-center border-t-2 border-b-2 border-black hover:bg-gray-200'
+          onClick={() => navigator('/')}>
           <h2>Home</h2>
         </button>
         <div className='flex flex-row w-full'>
