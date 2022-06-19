@@ -8,7 +8,7 @@ module.exports = {
     extend: {
       fontFamily: {
         'libre-baskerville': ['Libre Baskerville', 'sans-serif'],
-        'roboto': ['Roboto', 'sans-serif'],
+        'roboto': ['Roboto', 'sans'],
       }
     },
   },
