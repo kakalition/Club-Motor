@@ -11,6 +11,7 @@ import HalamanProfile from './Halaman/Profile/HalamanProfile'
 import HalamanSignIn from './Halaman/Sign In/HalamanSignIn'
 import HalamanSignUp from './Halaman/Sign Up/HalamanSignUp'
 import HalamanUtama from './Halaman/Utama/HalamanUtama'
+import HalamanVisiMisi from './Halaman/Visi dan Misi/HalamanVisiMisi'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -24,6 +25,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path='/gallery-foto' element={<HalamanGalleryFoto />} />
         <Route path='/klien-kami' element={<HalamanKlienKamu />} />
         <Route path='/kontak-kami' element={<HalamanKontakKami />} />
+        <Route path='/visi-misi' element={<HalamanVisiMisi />} />
         <Route path='/profile' element={<HalamanProfile />} />
         <Route path='/sign-in' element={<HalamanSignIn />} />
         <Route path='/sign-up' element={<HalamanSignUp />} />
